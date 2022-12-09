@@ -1,28 +1,32 @@
-<nav class="navbar navbar-inverse navbar-fixed-top">
-    <div class="container-fluid">
-      <div class="navbar-header">
-        <a class="navbar-brand" routerLink="/home">
-          <img src="/assets/img/ali-sokmen-low-resolution-logo-white-on-transparent-background.png" alt="personal logo"></a>
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+  <!-- Brand -->
+  <a class="navbar-brand" routerLink="/home">
+    <img src="/assets/img/ali-sokmen-low-resolution-logo-white-on-transparent-background.png" width="100px" alt="personal logo"></a>
+  <!-- Links -->
+  <ul class="navbar-nav">
+    <li class="nav-item" routerLinkActive="active">
+      <a class="nav-link" routerLink="/about">About</a>
+    </li>
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+        Professional
+      </a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" routerLink="/cv">CV/Resume</a>
+        <a class="dropdown-item" routerLink="/portfolio">Portfolio</a>
       </div>
-      <ul class="nav navbar-nav navbar-right">
-        <li routerLinkActive="active"><a routerLink="/about">About</a></li>
-        <li class="dropdown" routerLinkActive="active">
-          <a class="dropdown-toggle" data-toggle="dropdown">Professional
-          <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a routerLink="/cv">Curriculum Vitae</a></li>
-            <li><a routerLink="/portfolio">Portfolio</a></li>
-          </ul>
-        </li>
-        <li class="dropdown" routerLinkActive="active">
-          <a class="dropdown-toggle" data-toggle="dropdown">Personal
-          <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a routerLink="/archery">Archery</a></li>
-            <li><a routerLink="/guitar">Guitar</a></li>
-          </ul>
-        </li>
-        <li routerLinkActive="active"><a routerLink="/contact">Contact</a></li>
-      </ul>
-    </div>
-  </nav>
+    </li>
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+        Personal
+      </a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" routerLink="/archery">Archery</a>
+        <a class="dropdown-item" routerLink="/guitar">Guitar</a>
+      </div>
+    </li>
+    <li class="nav-item" routerLinkActive="active">
+      <a class="nav-link" routerLink="/contact">Contact</a>
+    </li>
+  </ul>
+</nav>
