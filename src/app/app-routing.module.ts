@@ -7,6 +7,7 @@ import { CvComponent } from './content/cv/cv.component';
 import { GuitarComponent } from './content/guitar/guitar.component';
 import { HomeComponent } from './content/home/home.component';
 import { PortfolioComponent } from './content/portfolio/portfolio.component';
+import { PageNotFoundComponent } from './pagenotfound/pagenotfound.component';
 
 const routes: Routes = [
   {path: '', redirectTo: '/home', pathMatch: 'full'},
