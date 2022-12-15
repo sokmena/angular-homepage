@@ -16,7 +16,9 @@ const routes: Routes = [
   {path: 'contact', component: ContactComponent},
   {path: 'cv', component: CvComponent},
   {path: 'guitar', component: GuitarComponent},
-  {path: 'portfolio', component: PortfolioComponent}
+  {path: 'portfolio', component: PortfolioComponent},
+  {path: 'not-found', component: PageNotFoundComponent},
+  {path: '**', redirectTo: '/not-found'}
 ];
 
 @NgModule({
