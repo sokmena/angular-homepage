@@ -12,6 +12,7 @@ import { PortfolioComponent } from './content/portfolio/portfolio.component';
 import { GuitarComponent } from './content/guitar/guitar.component';
 import { ArcheryComponent } from './content/archery/archery.component';
 import { ContactComponent } from './content/contact/contact.component';
+import { PageNotFoundComponent } from './pagenotfound/pagenotfound.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { ContactComponent } from './content/contact/contact.component';
     PortfolioComponent,
     GuitarComponent,
     ArcheryComponent,
-    ContactComponent
+    ContactComponent,
+    PageNotFoundComponent
   ],
   imports: [
     BrowserModule,
